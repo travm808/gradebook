@@ -17,11 +17,6 @@ def testChecker(testName, gradebook):
         print("Test Not Found. Please Try Again")
         print("\n")
 
-class Student:
-    def __init__(self, name, schoolClass, grades):
-        self.name = name
-        self.schoolClass = schoolClass
-        self.grades = grades
 print("Welcome to My Gradebook")
 
 students = {}
